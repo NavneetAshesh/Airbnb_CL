@@ -1,0 +1,215 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    position: relative;
+}
+
+.header{
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding: 8px 0px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo{
+    height: 70px;
+    margin: 0px;
+}
+
+.sub-header1{
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+}
+
+.left-btn{
+    border: 0px;
+    background-color: white;
+}
+.center-btn{
+    border: 0px;
+    background-color: white;
+}
+.right-btn{
+    border: 0px;
+    background-color: white;
+    color: grey;
+    position: relative;
+}
+.search-logo {
+    top:30%;
+    right: 8px;
+    background:#FF385C;
+    color:white;
+    font-size:0.8rem;
+    padding:0.7rem;
+    border-radius:50%;
+}
+
+.sub-header2{
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+}
+
+.button1{
+    border: 0px;
+    background-color: white;
+    padding: 14px;
+    border-radius: 20px;
+    display: flex;
+}
+.globe{
+    display: inline-flex;
+    align-items: center;
+    gap:10px
+}
+
+.button2{
+    border: 1px solid lightgrey;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.icon{
+    background-color: white;
+    border-bottom: 2px solid lightgrey;
+    display: flex;
+    font-size: 10px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 75px;
+    align-items:center;
+    margin: 0px 0px 10px 100px;
+}
+
+
+.icon-img{
+    width: 30px;
+    justify-content: space-evenly;
+}
+
+.icon-btn{
+    width: 60px;
+    background-color: white;
+    border: none;
+    margin: 5px 10px;
+    color: black;
+    text-decoration: none;
+} 
+.arrow{
+    /* padding: 30px 0px 30px 0px;
+    margin: 20px 20px 20px 10px; */
+    /* top: 30%;
+    left: 10px; */
+    transform: scale(1);
+    /* border: 1px solid lightgrey;
+    border-radius: 50px;
+    align-items: center; */
+    /* gap: 20px; */
+}
+
+.filter{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    padding: 0px;
+    margin: 20px 10px 20px 10px;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    font-size: medium;
+    transform: scale(0.8);
+}
+.adjust{
+    width: 15px;
+}
+
+.toggle{
+    transform: scale(0.8);
+    display: flex;
+    border: 1px solid lightgrey;
+    border-radius: 14px;
+    padding: 14px;
+    font-size: medium;
+    gap: 20px;
+}
+.toggle-icon{
+    transform: scale(2);
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.card{
+    width: 350px;
+    border: none;
+    border-radius: 14px;
+    padding: 8px;
+    margin: 20px auto;
+    position: relative;
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.heart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+h4{
+    font-size: large;
+}
+
+h5{
+    position: absolute;
+    bottom: 110px;
+    right: 20px;
+    font-size: 18px;
+    
+}
+.parent{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.show{
+    border: 1px solid light grey;
+    border-radius: 14px;
+    padding: 8px;
+    margin: 50px auto;
+}
+
+h3{
+    text-align: center;
+    margin: 10px 10px 40px 10px;
+}
+.btn{
+    border: 1px solid lightgrey;
+    border-radius: 14px;
+    padding: 20px 30px;
+    background-color: black;
+    color: white;
+}
