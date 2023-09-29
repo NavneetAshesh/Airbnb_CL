@@ -9,7 +9,7 @@ body{
 
 .header{
     width: 100%;
-    border: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     padding: 8px 0px;
     margin: 0;
     display: flex;
